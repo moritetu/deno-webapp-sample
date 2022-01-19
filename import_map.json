@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "./": "./",
+    "/": "./src/",
+    "denodb": "https://deno.land/x/denodb@v1.0.40/mod.ts",
+    "env": "https://deno.land/x/env@v2.2.0/env.js",
+    "http/": "https://deno.land/std@0.122.0/http/",
+    "log/": "https://deno.land/std@0.122.0/log/",
+    "oak": "https://deno.land/x/oak@v10.1.0/mod.ts",
+    "ptera": "https://deno.land/x/ptera@v1.0.2/mod.ts"
+  }
+}

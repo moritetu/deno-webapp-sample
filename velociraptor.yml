@@ -1,0 +1,13 @@
+envFile:
+  - .env
+
+scripts:
+  start: 
+    desc: Starts local server
+    cmd: deno run --import-map=import_map.json --allow-net --allow-env src/server.ts
+  dev: 
+    desc: Starts local server on development mode
+    cmd: deno run --import-map=import_map.json --watch --allow-read --allow-write --allow-net --allow-env src/server.ts
+  test:
+    desc: Run test
+    cmd: deno test --import-map=import_map.json --allow-net --allow-env src/server_test.ts
