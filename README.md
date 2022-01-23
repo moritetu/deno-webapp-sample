@@ -1,6 +1,6 @@
-# Deon Web App Template
+# Deno Web App Sample
 
-Deno webapp project template with the followings libraries:
+Deno sample web application project for study with the followings libraries:
 
 - denodb
 - oak
